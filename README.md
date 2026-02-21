@@ -39,10 +39,10 @@ Sensor → SPN Encryption → Packetization → UART Transmitter → PC Receiver
 ---
 
 ## Hardware Platform
-
+![zedboard](zedboard.jpeg)
 * FPGA Board: ZedBoard (Zynq-7000 SoC)
 * Programmable Logic Clock: 100 MHz
-* Communication Interface: UART
+* Communication Interface: USB TO UART TTL 5V 3.3V FT232R (The uart available on board only links with processor - in order to work uart to FPGA we need this module connected with PMOD or GPIO)
 * Sensor Interface: Ultrasonic distance sensor
 
 ---
