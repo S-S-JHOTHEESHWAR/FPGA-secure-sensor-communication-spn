@@ -78,16 +78,13 @@ The encryption pipeline is fully hardware-optimized for low latency and high thr
 
 ```
 project/
-│── rtl/
-│   ├── spn_encryptor.v
-│   ├── uart_tx.v
-│   ├── packetizer.v
-│   ├── sensor_interface.v
-│   └── top_module.v
-│
+│── Verilog Design Files/
+│   ├── enc.v
+│   ├── uart.v
+│   ├── ultra_core.v
+│   └── top.v
 │── constraints/
-│── testbench/
-│── docs/
+│   ├── pins.xdc
 │── README.md
 ```
 
