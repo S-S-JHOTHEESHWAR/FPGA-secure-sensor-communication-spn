@@ -81,7 +81,7 @@ project/
 │── Verilog Design Files/
 │   ├── enc.v
 │   ├── uart.v
-│   ├── ultra_core.v
+│   ├── ultrasonic_core.v
 │   └── top.v
 │── constraints/
 │   ├── pins.xdc
